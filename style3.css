@@ -1,0 +1,46 @@
+ /* Styles for header, nav, and main sections are the same as the homepage */
+
+section h3 {
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+section p {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+section ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section li {
+	margin: 20px;
+	flex: 1;
+	min-width: 300px;
+	max-width: 400px;
+	text-align: center;
+}
+
+section li img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #ddd;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	margin-top: 40px;
+}

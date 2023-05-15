@@ -1,0 +1,41 @@
+/* Styles for header, nav, and main sections are the same as the homepage */
+
+section h3 {
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+section p {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+section ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+section li {
+	margin-bottom: 40px;
+}
+
+section li h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+section li ul {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+footer {
+	background-color: #ddd;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	margin-top: 40
+}
